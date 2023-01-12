@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    
+<div class=" content-center z-10 bg-gray-800 shadow-md shadow-blue-500/50 fixed rounded-br-lg">
+    <ul class="flex flex-wrap -mb-px text-sm font-medium text-center text-gray-500 dark:text-gray-400">
+        <li class="mr-2">
+            <a href="#" class="inline-flex p-4 rounded-t-lg border-b-2 border-transparent hover:text-gray-400 ease-in duration-200 hover:border-gray-300 dark:hover:text-gray-300 group">
+                <svg aria-hidden="true" class="mr-2 w-5 h-5 text-gray-400 group-hover:text-gray-500 dark:text-gray-500 ease-in duration-200 dark:group-hover:text-gray-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-6-3a2 2 0 11-4 0 2 2 0 014 0zm-2 4a5 5 0 00-4.546 2.916A5.986 5.986 0 0010 16a5.986 5.986 0 004.546-2.084A5 5 0 0010 11z" clip-rule="evenodd"></path></svg>Profile
+            </a>
+        </li>
+        <li class="mr-2">
+            <a href="#dashboard" class="inline-flex p-4 rounded-t-lg border-b-2 border-transparent hover:text-gray-400 ease-in duration-200 hover:border-gray-300 dark:hover:text-gray-300 group" aria-current="page">
+                <svg aria-hidden="true" class="mr-2 w-5 h-5 text-gray-400 group-hover:text-gray-500 dark:text-gray-500 ease-in duration-200 dark:group-hover:text-gray-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M5 3a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2V5a2 2 0 00-2-2H5zM5 11a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2v-2a2 2 0 00-2-2H5zM11 5a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V5zM11 13a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"></path></svg>Dashboard
+            </a>
+        </li>
+       
+       
+        
+    </ul>
+</div>
+
+
+    <div>
+
+        <div id="container" class="h-screen bg-fixed bg-center bg-cover bg-no-repeat" 
+            style="background-image: url('mountain.jpg');">
+
+            <!--MySelf-->
+
+            <div class="flex flex-col justify-center items-center h-full">
+                <img class="w-56 object-cover hover:brightness-75 h-56 rounded-full border-2 shadow-md transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 duration-300"
+                    src="djafny.jpg" alt="djafny">
+                <h1 class=" text-6xl text-white font-bold">Djafny Abdad</h1>
+                <br>
+                <p class="text-2xl text-white font-bold">Software-Developer</p>
+            </div>
+
+       
+        <div class="snap-center bg-gray-800	 shadow-xl border-solid border-t-2 p-6" id="page-2">
+
+            <div class="flex justify-center mt-6 p-10" id="dashboard">
+
+                <div class="flex flex-col md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg mb-6">
+                    <img class=" w-full h-96 md:h-auto object-cover md:w-48 m-2 rounded-lg transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-100 mb-2 border-2 border-black duration-300"
+                        src="djafny.jpg" alt="Djafny" />
+                    <div class="p-6 flex flex-col justify-start">
+                        <h5 class="text-gray-900 text-xl font-medium mb-2">Dit ben ik.
+                            <button onclick="window.location.href='https://github.com/JJafni';"
+                                class="bg-gray-700 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    aria-hidden="true" role="img" class="w-5" preserveAspectRatio="xMidYMid meet"
+                                    viewBox="0 0 24 24">
+                                    <g fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385c.6.105.825-.255.825-.57c0-.285-.015-1.23-.015-2.235c-3.015.555-3.795-.735-4.035-1.41c-.135-.345-.72-1.41-1.23-1.695c-.42-.225-1.02-.78-.015-.795c.945-.015 1.62.87 1.845 1.23c1.08 1.815 2.805 1.305 3.495.99c.105-.78.42-1.305.765-1.605c-2.67-.3-5.46-1.335-5.46-5.925c0-1.305.465-2.385 1.23-3.225c-.12-.3-.54-1.53.12-3.18c0 0 1.005-.315 3.3 1.23c.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23c.66 1.65.24 2.88.12 3.18c.765.84 1.23 1.905 1.23 3.225c0 4.605-2.805 5.625-5.475 5.925c.435.375.81 1.095.81 2.22c0 1.605-.015 2.895-.015 3.3c0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"
+                                            fill="currentColor" />
+                                    </g>
+                                </svg>
+                            </button>
+                            <button onclick="window.location.href='https://www.linkedin.com/in/djafnyabdad/';"
+                            class="bg-gray-700 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded"
+                                style="background-color: #0077b5;">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-5">
+                                    <path fill="currentColor"
+                                        d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                                </svg>
+                            </button>
+
+
+                        </h5>
+                        <p class="text-gray-700 text-base mb-4">
+                            Mijn naam is Djafny Abdad, ik ben 18 jaar oud en woon in Amsterdam. Op dit moment bestudeer
+                            ik de IT met het bouwen van programma's en ben ik er ook een grote fan van. Naast het
+                            programmeren
+                            hou ik ook van gamen, voetballen en muziek luisteren.
+                        </p>
+
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
+
+                <!--Card 1-->
+
+                <div class="bg-white rounded overflow-hidden shadow-lg">
+                    <a href="https://stap.bit-academy.nl/?utm_source=google&utm_medium=cpc&utm_campaign=Upskill#opleidingen">
+                        <img class="w-full hover:brightness-75 shadow-md transition ease-in-out scale-100 hover:scale-110 ease-in duration-200 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300"
+                            src="bit.jpg" alt="Mountain">
+                    </a>
+                    <div class="px-6 py-4">
+                        <div class="font-bold text-xl mb-2">Software Development</div>
+                        <p class="text-gray-700 text-base">
+                            In deze opleiding leer veel
+                            verschillende talen voor programmeren van websites, data en design.
+                            Hier mag ik mijn eigen pad kiezen met wat ik precies wil doen als Software Developer. 
+                        </p>
+                    </div>
+
+                </div>
+                <!--Card 2-->
+                <div class="bg-white rounded overflow-hidden shadow-lg">
+                    <img class="w-full hover:brightness-75 shadow-md transition ease-in-out scale-100 hover:scale-110 ease-in duration-200 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300"
+                        src="mario.jpg" alt="River">
+                    <div class="px-6 py-4">
+                        <div class="font-bold text-xl mb-2">Scrum Project</div><a href="https://github.com/JJafni/Leaderboards">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" class="w-5 h-5"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+
+                       </a> <p class="text-gray-700 text-base">
+                            Voor mijn eerste project hebben mijn team en en ik een website gemaakt waar je de scoreboard
+                            kon zien van de kandidaten voor de spellen: "Ping-Pong" en "Mario Kart".
+                            De website was gemaakt met HTML, CSS, PHP en MySQL.
+                            We hebben veel geleerd over het werken in een team en hoe je een project moet aanpakken.
+                        </p>
+                    </div>
+
+                </div>
+
+                <!--Card 3-->
+                <div class="bg-white rounded overflow-hidden shadow-lg">
+                    <a href="https://projects.bit-academy.nl/~arcade_xampp/">
+                        <img class="w-full hover:brightness-75 shadow-md transition ease-in-out scale-100 hover:scale-110 ease-in duration-200 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300"
+                            src="bitbin.png" alt="Forest">
+                    </a>
+                    <div class="px-6 py-4">
+                        <div class="font-bold text-xl mb-2">PasteBin Project</div><a href="https://github.com/JJafni/PasteBin">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" class="w-5 h-5"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    
+                           </a>
+                        <p class="text-gray-700 text-base">
+                            Als project 2 hebben mijn team en ik een een webtoepassing gecreëerd waarmee gebruikers
+                            tekst online kunnen uploaden en delen.
+                            Het meest gebruikelijke gebruik is voor het delen van broncode of configuratie-informatie,
+                            vaak gericht op bepaalde groepen of focuspunten.
+                        </p>
+                    </div>
+
+
+                </div>
+               
+                <div class="bg-white rounded overflow-hidden shadow-lg">
+                    
+                        <img class="w-full hover:brightness-75 shadow-md transition ease-in-out scale-100 hover:scale-110 ease-in duration-200 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300"
+                            src="orangeball.png" alt="Mountain">
+                    
+                    <div class="px-6 py-4">
+                        <div class="font-bold text-xl mb-2">Orange Ball</div><a href="https://github.com/JJafni/Orange-Ball">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" class="w-5 h-5"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    
+                           </a>
+                        <p class="text-gray-700 text-base">
+                            In deze ben je een paddle en moet je met de knoppen W en S de bal tegenhouden en zo bouw je je score op. Als je de bal laat passeren heb je verloren. 
+                            Het moeilijke ervan is dat de bal steeds sneller gaat en je moet dus steeds sneller reageren.
+                        </p>
+                    </div>
+
+                </div>
+                <div class="bg-white rounded overflow-hidden shadow-lg">
+                   
+                        <img class="w-full hover:brightness-75 shadow-md transition ease-in-out scale-100 hover:scale-110 ease-in duration-200 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300"
+                            src="plane.jpg" alt="Mountain">
+                    
+                    <div class="px-6 py-4">
+                        <div class="font-bold text-xl mb-2">Plane Programming Clone</div><a href="https://github.com/JJafni/Plane-Programming-Clone">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" class="w-5 h-5"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    
+                           </a>
+                        <p class="text-gray-700 text-base">
+                            Dit is een clone van het spel plane programming. Hier moet je door de obstakels heen vliegen en zo lang mogelijk in leven blijven.
+                            Wat hieraan anders is is dat je niet zomaar tegen een obstakel kan aanvliegen, anders moet je opnieuw beginnen. Je moet dus goed opletten en goed reageren. Daarnaast wordt er ook een score opgetelt.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+    </div>
+    </div> </div>
+    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.4/dist/flowbite.min.css" />
+
+</body>
+
+</html>
