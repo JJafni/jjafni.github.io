@@ -1,0 +1,126 @@
+body {
+    background: #000;
+  }
+  
+  #stars,
+  #stars2,
+  #stars3,
+  #stars4,
+  #stars5,
+  #stars6,
+  #stars7 {
+    width: 1px;
+    height: 1px;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  #stars {
+    opacity: .8;
+    -webkit-animation: animStar 50s infinite;
+    -moz-animation: animStar 50s infinite;
+    -ms-animation: animStar 50s infinite;
+    -o-animation: animStar 50s infinite;
+    animation: animStar 50s infinite;
+  }
+  
+  #stars2 {
+    opacity: .6;
+    -webkit-animation: animStar 100s infinite;
+    -moz-animation: animStar 100s infinite;
+    -ms-animation: animStar 100s infinite;
+    -o-animation: animStar 100s infinite;
+    animation: animStar 100s infinite;
+  }
+  
+  #stars3 {
+    opacity: .4;
+    -webkit-animation: animStar 150s infinite;
+    -moz-animation: animStar 150s infinite;
+    -ms-animation: animStar 150s infinite;
+    -o-animation: animStar 150s infinite;
+    animation: animStar 150s infinite;
+  }
+  
+    #stars4 {
+        opacity: .2;
+        -webkit-animation: animStar 200s infinite;
+        -moz-animation: animStar 200s infinite;
+        -ms-animation: animStar 200s infinite;
+        -o-animation: animStar 200s infinite;
+        animation: animStar 200s infinite;
+    }
+
+    #stars5 {
+        opacity: .1;
+        -webkit-animation: animStar 250s infinite;
+        -moz-animation: animStar 250s infinite;
+        -ms-animation: animStar 250s infinite;
+        -o-animation: animStar 250s infinite;
+        animation: animStar 250s infinite;
+    }
+
+    #stars6 {
+        opacity: .05;
+        -webkit-animation: animStar 300s infinite;
+        -moz-animation: animStar 300s infinite;
+        -ms-animation: animStar 300s infinite;
+        -o-animation: animStar 300s infinite;
+        animation: animStar 300s infinite;
+    }
+
+    #stars7 {
+        opacity: .025;
+        -webkit-animation: animStar 350s infinite;
+        -moz-animation: animStar 350s infinite;
+        -ms-animation: animStar 350s infinite;
+        -o-animation: animStar 350s infinite;
+        animation: animStar 350s infinite;
+    }
+  @-webkit-keyframes animStar {
+    from {
+      -webkit-transform: translate(0, 0);
+    }
+    to {
+      -webkit-transform: translate(100vw, 100vh);
+    }
+  }
+  
+  @-moz-keyframes animStar {
+    from {
+      -moz-transform: translate(0, 0);
+    }
+    to {
+      -moz-transform: translate(100vw, 100vh);
+    }
+  }
+  
+  @-ms-keyframes animStar {
+    from {
+      -ms-transform: translate(0, 0);
+    }
+    to {
+      -ms-transform: translate(100vw, 100vh);
+    }
+  }
+  
+  @-o-keyframes animStar {
+    from {
+      -o-transform: translate(0, 0);
+    }
+    to {
+      -o-transform: translate(100vw, 100vh);
+    }
+  }
+  
+  @keyframes animStar {
+    from {
+      transform: translate(0, 0);
+    }
+    to {
+      transform: translate(100vw, 100vh);
+    }
+  }
+  
